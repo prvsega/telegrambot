@@ -19,7 +19,6 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.System.currentTimeMillis;
 
 @Service
 @Slf4j
