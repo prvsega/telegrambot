@@ -12,6 +12,10 @@ public class BotConfig {
 
     @Value("${bot.username}")
     private String name;
+
     @Value("${bot.apitoken}")
     private String token;
+
+    @Value("${bot.owner}")
+    private Long chatIdOwner;
 }
